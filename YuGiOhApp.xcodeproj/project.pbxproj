@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED3D80F2AD082D60070BDB1 /* YuGiOhAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3D80E2AD082D60070BDB1 /* YuGiOhAppApp.swift */; };
+		CED3D8132AD082D70070BDB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED3D8122AD082D70070BDB1 /* Assets.xcassets */; };
+		CED3D8162AD082D70070BDB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED3D8152AD082D70070BDB1 /* Preview Assets.xcassets */; };
+		CED3D8392AD083E60070BDB1 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3D8382AD083E60070BDB1 /* CardList.swift */; };
+		CED3D83B2AD084CC0070BDB1 /* RemoteCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3D83A2AD084CC0070BDB1 /* RemoteCard.swift */; };
+		CED3D83D2AD086B20070BDB1 /* RemoteCardLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3D83C2AD086B20070BDB1 /* RemoteCardLoader.swift */; };
+		CED3D83F2AD089210070BDB1 /* CardDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3D83E2AD089210070BDB1 /* CardDetails.swift */; };
+		CED3D8412AD089340070BDB1 /* CardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3D8402AD089340070BDB1 /* CardRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED3D81C2AD082D70070BDB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED3D8032AD082D60070BDB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED3D80A2AD082D60070BDB1;
+			remoteInfo = YuGiOhApp;
+		};
+		CED3D8262AD082D70070BDB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED3D8032AD082D60070BDB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED3D80A2AD082D60070BDB1;
+			remoteInfo = YuGiOhApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CED3D80B2AD082D60070BDB1 /* YuGiOhApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuGiOhApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED3D80E2AD082D60070BDB1 /* YuGiOhAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YuGiOhAppApp.swift; sourceTree = "<group>"; };
+		CED3D8122AD082D70070BDB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED3D8152AD082D70070BDB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CED3D81B2AD082D70070BDB1 /* YuGiOhAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuGiOhAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED3D8252AD082D70070BDB1 /* YuGiOhAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuGiOhAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED3D8382AD083E60070BDB1 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
+		CED3D83A2AD084CC0070BDB1 /* RemoteCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCard.swift; sourceTree = "<group>"; };
+		CED3D83C2AD086B20070BDB1 /* RemoteCardLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteCardLoader.swift; sourceTree = "<group>"; };
+		CED3D83E2AD089210070BDB1 /* CardDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetails.swift; sourceTree = "<group>"; };
+		CED3D8402AD089340070BDB1 /* CardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED3D8082AD082D60070BDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED3D8182AD082D70070BDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED3D8222AD082D70070BDB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED3D8022AD082D60070BDB1 = {
+			isa = PBXGroup;
+			children = (
+				CED3D80D2AD082D60070BDB1 /* YuGiOhApp */,
+				CED3D80C2AD082D60070BDB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED3D80C2AD082D60070BDB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED3D80B2AD082D60070BDB1 /* YuGiOhApp.app */,
+				CED3D81B2AD082D70070BDB1 /* YuGiOhAppTests.xctest */,
+				CED3D8252AD082D70070BDB1 /* YuGiOhAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED3D80D2AD082D60070BDB1 /* YuGiOhApp */ = {
+			isa = PBXGroup;
+			children = (
+				CED3D8382AD083E60070BDB1 /* CardList.swift */,
+				CED3D83E2AD089210070BDB1 /* CardDetails.swift */,
+				CED3D8402AD089340070BDB1 /* CardRow.swift */,
+				CED3D83A2AD084CC0070BDB1 /* RemoteCard.swift */,
+				CED3D83C2AD086B20070BDB1 /* RemoteCardLoader.swift */,
+				CED3D80E2AD082D60070BDB1 /* YuGiOhAppApp.swift */,
+				CED3D8142AD082D70070BDB1 /* Preview Content */,
+			);
+			path = YuGiOhApp;
+			sourceTree = "<group>";
+		};
+		CED3D8142AD082D70070BDB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CED3D8122AD082D70070BDB1 /* Assets.xcassets */,
+				CED3D8152AD082D70070BDB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED3D80A2AD082D60070BDB1 /* YuGiOhApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED3D82F2AD082D70070BDB1 /* Build configuration list for PBXNativeTarget "YuGiOhApp" */;
+			buildPhases = (
+				CED3D8072AD082D60070BDB1 /* Sources */,
+				CED3D8082AD082D60070BDB1 /* Frameworks */,
+				CED3D8092AD082D60070BDB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YuGiOhApp;
+			productName = YuGiOhApp;
+			productReference = CED3D80B2AD082D60070BDB1 /* YuGiOhApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED3D81A2AD082D70070BDB1 /* YuGiOhAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED3D8322AD082D70070BDB1 /* Build configuration list for PBXNativeTarget "YuGiOhAppTests" */;
+			buildPhases = (
+				CED3D8172AD082D70070BDB1 /* Sources */,
+				CED3D8182AD082D70070BDB1 /* Frameworks */,
+				CED3D8192AD082D70070BDB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED3D81D2AD082D70070BDB1 /* PBXTargetDependency */,
+			);
+			name = YuGiOhAppTests;
+			productName = YuGiOhAppTests;
+			productReference = CED3D81B2AD082D70070BDB1 /* YuGiOhAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CED3D8242AD082D70070BDB1 /* YuGiOhAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED3D8352AD082D70070BDB1 /* Build configuration list for PBXNativeTarget "YuGiOhAppUITests" */;
+			buildPhases = (
+				CED3D8212AD082D70070BDB1 /* Sources */,
+				CED3D8222AD082D70070BDB1 /* Frameworks */,
+				CED3D8232AD082D70070BDB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED3D8272AD082D70070BDB1 /* PBXTargetDependency */,
+			);
+			name = YuGiOhAppUITests;
+			productName = YuGiOhAppUITests;
+			productReference = CED3D8252AD082D70070BDB1 /* YuGiOhAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED3D8032AD082D60070BDB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CED3D80A2AD082D60070BDB1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					CED3D81A2AD082D70070BDB1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CED3D80A2AD082D60070BDB1;
+					};
+					CED3D8242AD082D70070BDB1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = CED3D80A2AD082D60070BDB1;
+					};
+				};
+			};
+			buildConfigurationList = CED3D8062AD082D60070BDB1 /* Build configuration list for PBXProject "YuGiOhApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED3D8022AD082D60070BDB1;
+			productRefGroup = CED3D80C2AD082D60070BDB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED3D80A2AD082D60070BDB1 /* YuGiOhApp */,
+				CED3D81A2AD082D70070BDB1 /* YuGiOhAppTests */,
+				CED3D8242AD082D70070BDB1 /* YuGiOhAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED3D8092AD082D60070BDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED3D8162AD082D70070BDB1 /* Preview Assets.xcassets in Resources */,
+				CED3D8132AD082D70070BDB1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED3D8192AD082D70070BDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED3D8232AD082D70070BDB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED3D8072AD082D60070BDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED3D80F2AD082D60070BDB1 /* YuGiOhAppApp.swift in Sources */,
+				CED3D8392AD083E60070BDB1 /* CardList.swift in Sources */,
+				CED3D83D2AD086B20070BDB1 /* RemoteCardLoader.swift in Sources */,
+				CED3D83B2AD084CC0070BDB1 /* RemoteCard.swift in Sources */,
+				CED3D8412AD089340070BDB1 /* CardRow.swift in Sources */,
+				CED3D83F2AD089210070BDB1 /* CardDetails.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED3D8172AD082D70070BDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED3D8212AD082D70070BDB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED3D81D2AD082D70070BDB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED3D80A2AD082D60070BDB1 /* YuGiOhApp */;
+			targetProxy = CED3D81C2AD082D70070BDB1 /* PBXContainerItemProxy */;
+		};
+		CED3D8272AD082D70070BDB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED3D80A2AD082D60070BDB1 /* YuGiOhApp */;
+			targetProxy = CED3D8262AD082D70070BDB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CED3D82D2AD082D70070BDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED3D82E2AD082D70070BDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED3D8302AD082D70070BDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YuGiOhApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifce.YuGiOhApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED3D8312AD082D70070BDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YuGiOhApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifce.YuGiOhApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CED3D8332AD082D70070BDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifce.YuGiOhAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YuGiOhApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YuGiOhApp";
+			};
+			name = Debug;
+		};
+		CED3D8342AD082D70070BDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifce.YuGiOhAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YuGiOhApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YuGiOhApp";
+			};
+			name = Release;
+		};
+		CED3D8362AD082D70070BDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifce.YuGiOhAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YuGiOhApp;
+			};
+			name = Debug;
+		};
+		CED3D8372AD082D70070BDB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifce.YuGiOhAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YuGiOhApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED3D8062AD082D60070BDB1 /* Build configuration list for PBXProject "YuGiOhApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED3D82D2AD082D70070BDB1 /* Debug */,
+				CED3D82E2AD082D70070BDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED3D82F2AD082D70070BDB1 /* Build configuration list for PBXNativeTarget "YuGiOhApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED3D8302AD082D70070BDB1 /* Debug */,
+				CED3D8312AD082D70070BDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED3D8322AD082D70070BDB1 /* Build configuration list for PBXNativeTarget "YuGiOhAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED3D8332AD082D70070BDB1 /* Debug */,
+				CED3D8342AD082D70070BDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED3D8352AD082D70070BDB1 /* Build configuration list for PBXNativeTarget "YuGiOhAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED3D8362AD082D70070BDB1 /* Debug */,
+				CED3D8372AD082D70070BDB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED3D8032AD082D60070BDB1 /* Project object */;
+}
